@@ -1,0 +1,64 @@
+.premium-section{
+    height: 90vh;
+    width: 950px;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: #8a8b8d;
+}
+
+.pre-container{
+    display: flex;
+    justify-content: space-around;
+    /* background-image: url('../../assets/pre-bg.jpg'); */
+    background-repeat: no-repeat;
+
+}
+
+.container-1, .container-2, .container-3{
+    color: black;
+    margin: 45px 15px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 1px;
+    border: 3px solid white;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+/* .container-2{
+    background-image: url('../../assets/silver.jpg');
+}
+
+.container-3{
+    background-image: url('../../assets/gold.jpg');
+} */
+
+.container-1 h3, .container-2 h3, .container-3 h3{
+    font-size: large;
+    text-align: center;
+}
+
+.payment-btn{
+    justify-content: center;
+    padding: 10px 18px;
+    margin: 0 auto;
+    width: 80px;
+    display: block;
+    border: solid 1px blue;
+    border-radius: 3px;
+    background-color: #e7f8fe;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.payment-btn:hover{
+    background-color: #d3e4eb;
+}
+
+.title, .title-2, .title-3{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 150%;
+} 
